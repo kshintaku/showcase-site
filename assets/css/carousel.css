@@ -11,6 +11,7 @@
     width: 90%;
     max-width: 1000px;
     text-align: center;
+    margin-bottom: 2em;
 }
 
 .carousel-inner {
@@ -112,18 +113,6 @@ blockquote {
 
 .carousel-indicators li.active {
     background-color: #ffffff;
-}
-
-@media (min-width: 992px) {
-    .container {
-        width: 970px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        width: 1170px;
-    }
 }
 
 @keyframes left {
