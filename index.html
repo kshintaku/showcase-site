@@ -7,7 +7,6 @@
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
         <link rel="stylesheet" href="assets/css/nav.css" type="text/css" />
         <link rel="stylesheet" href="assets/css/carousel.css" type="text/css" />
-        <script src="app.js"></script>
         <title>Document</title>
     </head>
     <body>
@@ -38,84 +37,82 @@
                 </div>
             </div>
         </nav>
-        <div>
-            <div class="carousel">
-                <ul class="slides">
-                    <input
-                        type="radio"
-                        name="radio-buttons"
-                        id="img-1"
-                        checked
-                    />
-                    <li class="slide-container">
-                        <div class="slide-image">
-                            <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Timisoara_-_Regional_Business_Centre.jpg"
-                            />
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-control left">
+                    <span>&lsaquo;</span>
+                </div>
+                <div class="carousel-control right">
+                    <span>&rsaquo;</span>
+                </div>
+                <div class="item active">
+                    <div class="container">
+                        <div
+                            class="slider-image"
+                            style="
+                                background-image: url('https://source.unsplash.com/category/nature');
+                            "
+                        >
+                            <blockquote>
+                                Do something every day that you don't want to
+                                do. This is the golden rule for acquiring the
+                                habit of doing your duty without pain.
+                            </blockquote>
+                            <p class="author">Oscar Wilde</p>
                         </div>
-                        <div class="carousel-controls">
-                            <label for="img-3" class="prev-slide">
-                                <span>&lsaquo;</span>
-                            </label>
-                            <label for="img-2" class="next-slide">
-                                <span>&rsaquo;</span>
-                            </label>
-                        </div>
-                    </li>
-                    <input type="radio" name="radio-buttons" id="img-2" />
-                    <li class="slide-container">
-                        <div class="slide-image">
-                            <img
-                                src="https://content.r9cdn.net/rimg/dimg/db/02/06b291e8-city-14912-171317ad83a.jpg?width=1750&height=1000&xhint=3040&yhint=2553&crop=true"
-                            />
-                        </div>
-                        <div class="carousel-controls">
-                            <label for="img-1" class="prev-slide">
-                                <span>&lsaquo;</span>
-                            </label>
-                            <label for="img-3" class="next-slide">
-                                <span>&rsaquo;</span>
-                            </label>
-                        </div>
-                    </li>
-                    <input type="radio" name="radio-buttons" id="img-3" />
-                    <li class="slide-container">
-                        <div class="slide-image">
-                            <img
-                                src="https://speakzeasy.files.wordpress.com/2015/05/twa_blogpic_timisoara-4415.jpg"
-                            />
-                        </div>
-                        <div class="carousel-controls">
-                            <label for="img-2" class="prev-slide">
-                                <span>&lsaquo;</span>
-                            </label>
-                            <label for="img-1" class="next-slide">
-                                <span>&rsaquo;</span>
-                            </label>
-                        </div>
-                    </li>
-                    <div class="carousel-dots">
-                        <label
-                            for="img-1"
-                            class="carousel-dot"
-                            id="img-dot-1"
-                        ></label>
-                        <label
-                            for="img-2"
-                            class="carousel-dot"
-                            id="img-dot-2"
-                        ></label>
-                        <label
-                            for="img-3"
-                            class="carousel-dot"
-                            id="img-dot-3"
-                        ></label>
                     </div>
-                </ul>
+                </div>
+                <div class="item">
+                    <div class="container">
+                        <div
+                            class="slider-image"
+                            style="
+                                background-image: url('https://source.unsplash.com/category/buildings');
+                            "
+                        >
+                            <blockquote>
+                                Do something every day that you don't want to
+                                do. This is the golden rule for acquiring the
+                                habit of doing your duty without pain.
+                            </blockquote>
+                            <p class="author">Mark Twain</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="container">
+                        <div
+                            class="slider-image"
+                            style="
+                                background-image: url('https://source.unsplash.com/category/objects');
+                            "
+                        >
+                            <blockquote>
+                                The worst sin towards our fellow creatures is
+                                not to hate them, but to be indifferent to them.
+                                That's the essence of inhumanity.
+                            </blockquote>
+                            <p class="author">George Bernard Shaw</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!-- <div class="carousel-control left">
+                <span>&lsaquo;</span>
+            </div> -->
+            <!-- <div class="carousel-control right">
+                <span>&rsaquo;</span>
+            </div> -->
+            <ol class="carousel-indicators">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+            </ol>
         </div>
         <footer>
             <span>© 2020&nbsp; Keith Shintaku</span>
         </footer>
+        
     </body>
+    <script src="app.js"></script>
 </html>
