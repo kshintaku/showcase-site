@@ -71,16 +71,20 @@ blockquote {
 }
 
 .carousel-control span {
-    font-size: 7em;
+    font-size: 6em;
     color: white;
     justify-content: center;
+}
+
+.carousel-control span:hover {
+    opacity: 0.8;
 }
 
 .carousel-control.left {
     position: absolute;
     z-index: 1;
     cursor: pointer;
-    margin-top: 8em;
+    margin-top: 10em;
     left: 0;
 }
 
@@ -88,7 +92,7 @@ blockquote {
     position: absolute;
     z-index: 1;
     cursor: pointer;
-    margin-top: 8em;
+    margin-top: 10em;
     right: 0;
 }
 
