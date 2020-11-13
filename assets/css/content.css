@@ -23,3 +23,22 @@ img {
     flex: auto;
     width: 0;
 }
+
+@media (max-width: 800px) {
+    article {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h3 {
+        margin: 0;
+    }
+
+    .container-article {
+        width: 100%;
+    }
+}
