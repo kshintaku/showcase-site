@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <link rel="stylesheet" href="assets/css/nav.css" type="text/css" />
+        <link rel="stylesheet" href="assets/css/content.css" type="text/css" />
+        <link rel="stylesheet" href="assets/css/contact.css" type="text/css" />
+        <title>Contact</title>
+</head>
+<body>
+    <nav>
+        <div class="container-nav">
+            <div class="left-nav">
+                <div id="nav-icon" onclick="toggleNav()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <a href="index.html">Home</a>
+            </div>
+            <div class="right-nav">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#" class="active">Contact</a></li>
+                </ul>
+            </div>
+            <div class="side-nav" id="side-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#" class="active">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1>Get in Touch!</h1>
+    <div class="container-contact">
+        <div class="container-contact-info">
+            <a href="mailto:hello">info@yes.com</a>
+            <a href="tel:+0000000000">(000) 000-0000</a>
+            <img src="assets/images/map.png" alt="">
+        </div>
+        <div class="container-contact-form">
+            <form action="#">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your Name">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Email">
+                <label for="subject">Leave a Message</label>
+        <textarea id="subject" name="subject" placeholder="Type your message here.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <span>© 2020&nbsp; Keith Shintaku</span>
+    </footer>
+</body>
+<script src="app.js"></script>
+</html>

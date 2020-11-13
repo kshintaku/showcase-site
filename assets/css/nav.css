@@ -91,6 +91,10 @@ nav a {
     text-decoration: none;
 }
 
+nav .side-nav a.active {
+    color: white;
+}
+
 @media (max-width: 800px) {
     nav {
         font-size: x-large;

@@ -1,0 +1,67 @@
+.container-contact {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    margin-top: 3em;
+    gap: 2em;
+}
+
+.container-contact-info {
+    display:flex;
+    flex-direction: column;
+    flex: auto;
+    width: 0;
+    align-self: flex-start;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-contact-info a {
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+}
+
+img {
+    width: 100%;
+    align-self: flex-start;
+}
+
+.container-contact-form {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    width: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}
+
+input[type="submit"] {
+    width: 40%;
+    font-size: large;
+}
+
+@media (max-width: 800px) {
+    .container-contact {
+        flex-direction: column;
+    }
+
+    .container-contact-info {
+        width: 95%;
+    }
+
+    .container-contact-form {
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+    }
+}
