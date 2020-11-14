@@ -15,4 +15,7 @@
 
 # Hide environmental variables
 .env
+
+# Linting
+.prettierrc
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode

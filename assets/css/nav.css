@@ -7,6 +7,9 @@ nav {
     line-height: 2.5;
     font-size: large;
     box-shadow: 0px 3px 5px grey;
+    position: sticky;
+    top: 0;
+    z: 7;
 }
 
 nav .container-nav {

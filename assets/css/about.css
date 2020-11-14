@@ -1,0 +1,38 @@
+.container-about {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 2em;
+}
+
+.container-about-info {
+    display: flex;
+    flex: 3 1 0;
+    line-height: 1.5;
+}
+
+.container-about-deco {
+    display: flex;
+    width: 100%;
+    flex: 2 1 0;
+}
+
+@media (max-width: 800px) {
+    .container-about {
+        flex-direction: column;
+    }
+
+    .container-about-info {
+        width: 100%;
+    }
+
+    .container-about-deco {
+        width: 100%;
+    }
+
+    .container-about-deco img {
+        object-fit: contain;
+    }
+}
