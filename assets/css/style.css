@@ -28,3 +28,7 @@ img {
 .active {
     color: white;
 }
+
+a {
+    text-decoration: none;
+}

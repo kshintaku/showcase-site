@@ -94,6 +94,15 @@ nav a {
     text-decoration: none;
 }
 
+nav a.active {
+    color: white;
+}
+
+nav a:hover {
+    color: white;
+    transition: 400ms;
+}
+
 nav .side-nav a.active {
     color: white;
 }
