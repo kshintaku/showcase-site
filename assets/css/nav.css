@@ -65,15 +65,16 @@ nav .side-nav {
 }
 
 nav .side-nav a {
-    text-decoration: none;
+    /* text-decoration: none;
     color: grey;
-    transition: 0.4s;
+    transition: 0.4s; */
     font-size: xx-large;
 }
 
-nav .side-nav a:hover {
-    color: darkgrey;
-}
+/* nav .side-nav ul li a:hover {
+    color: white;
+    transition: 400ms;
+} */
 
 nav .side-nav .closebtn {
     position: absolute;
@@ -92,6 +93,7 @@ nav .side-nav ul {
 nav a {
     color: grey;
     text-decoration: none;
+    transition: 400ms;
 }
 
 nav a.active {
@@ -101,10 +103,6 @@ nav a.active {
 nav a:hover {
     color: white;
     transition: 400ms;
-}
-
-nav .side-nav a.active {
-    color: white;
 }
 
 @media (max-width: 800px) {
@@ -131,6 +129,7 @@ nav .side-nav a.active {
     nav .left-nav #nav-icon {
         display: block;
     }
+
 }
 
 nav ul {
