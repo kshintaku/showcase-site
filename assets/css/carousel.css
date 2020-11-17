@@ -92,7 +92,10 @@ blockquote {
     position: absolute;
     z-index: 1;
     cursor: pointer;
-    margin-top: 10em;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+    display: flex;
     left: 0;
 }
 
@@ -100,8 +103,11 @@ blockquote {
     position: absolute;
     z-index: 1;
     cursor: pointer;
-    margin-top: 10em;
     right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
 }
 
 .carousel-indicators {

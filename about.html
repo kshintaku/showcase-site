@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8" />
+    <head>
+        <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
@@ -9,47 +9,50 @@
         <link rel="stylesheet" href="assets/css/content.css" type="text/css" />
         <link rel="stylesheet" href="assets/css/about.css" type="text/css" />
         <title>About</title>
-</head>
-<body>
-    <nav>
-        <div class="container-nav">
-            <div class="left-nav">
-                <div id="nav-icon" onclick="toggleNav()">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+    </head>
+    <body>
+        <nav>
+            <div class="container-nav">
+                <div class="left-nav">
+                    <div id="nav-icon" onclick="toggleNav()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <a href="index.html">Home</a>
                 </div>
-                <a href="index.html">Home</a>
+                <div class="right-nav">
+                    <ul>
+                        <li><a href="#" class="active">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="side-nav" id="side-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#" class="active">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="right-nav">
-                <ul>
-                    <li><a href="#" class="active">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+        </nav>
+        <h1>About Me!</h1>
+        <div class="container-about">
+            <div class="container-about-info">
+                <p>
+                    I've been working for awhile and I'd love to work with you
+                    on whatever project you might have.
+                </p>
             </div>
-            <div class="side-nav" id="side-nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#" class="active">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+            <div class="container-about-deco">
+                <img src="https://source.unsplash.com/category/people" alt="" />
             </div>
         </div>
-    </nav>
-    <h1>About Me!</h1>
-    <div class="container-about">
-        <div class="container-about-info">
-            <p>I've been working for awhile and I'd love to work with you on whatever project you might have.</p>
-        </div>
-        <div class="container-about-deco">
-            <img src="https://source.unsplash.com/category/people" alt="">
-        </div>
-    </div>
-    <footer>
-        <span>© 2020&nbsp; Keith Shintaku</span>
-    </footer>
-</body>
-<script src="app.js"></script>
+        <footer>
+            <span>© 2020&nbsp; Keith Shintaku</span>
+        </footer>
+    </body>
+    <script src="/assets/scripts/navbar.js"></script>
 </html>

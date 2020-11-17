@@ -6,7 +6,7 @@ nav {
     height: auto;
     line-height: 2.5;
     font-size: large;
-    box-shadow: 0px 3px 5px grey;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
     position: sticky;
     top: 0;
     z-index: 7;
@@ -223,4 +223,29 @@ nav ul {
     transform: rotate(-45deg);
     top: 39px;
     left: 8px;
+}
+
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+    nav {
+        background-color: rgb(235, 235, 235);
+        color: black;
+    }
+
+    nav a.active {
+        color: rgb(49, 47, 47);
+    }
+
+    nav a:hover {
+        color: black;
+    }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    nav {
+        background-color: black;
+        color: white;
+    }
 }

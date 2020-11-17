@@ -1,15 +1,3 @@
-// Opening the side menu when in tablet/mobile view
-function toggleNav() {
-    if (document.getElementById('nav-icon').className === '') {
-        document.getElementById('nav-icon').className = 'open'
-        document.getElementById('side-nav').style.width = '72%'
-    } else {
-        document.getElementById('nav-icon').className = ''
-        document.getElementById('side-nav').style.width = '0'
-    }
-}
-
-// Working with a sliding carousel of images
 var items = document.querySelectorAll('.carousel .item')
 var dots = document.querySelectorAll('.carousel-indicators li')
 var currentItem = 0
