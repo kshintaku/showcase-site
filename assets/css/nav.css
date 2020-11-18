@@ -107,13 +107,13 @@ nav a:hover {
 }
 
 nav .right-nav button {
-    display: none;
     border: none;
     outline: none;
     background-color: black;
     color: grey;
     font-size: large;
     transition: 400ms;
+    height: auto;
 }
 
 nav .right-nav button:hover {
@@ -121,7 +121,7 @@ nav .right-nav button:hover {
     transition: 400ms;
 }
 
-nav .right-nav button:hover .lang-content {
+nav .right-nav .lang-dropdown:hover .lang-content {
     display: block;
 }
 
@@ -129,16 +129,28 @@ nav .right-nav button:hover .lang-content {
     display: none;
     position: fixed;
     background-color: black;
-    min-width: 160px;
+    /* min-width: 100px; */
     box-shadow: 0px 0px 3px black;
     z-index: 1;
+    padding-left: 0.4em;
+    padding-right: 0.5em;
+}
+
+.lang-content:hover {
+    display: block;
 }
 
 .lang-content a {
     float: none;
-    color: white;
+    color: grey;
     display: block;
     text-align: left;
+    transition: 400ms;
+}
+
+.lang-content a:hover {
+    color: white;
+    transition: 400ms;
 }
 
 @media (max-width: 800px) {
