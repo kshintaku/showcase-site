@@ -10,6 +10,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 7;
+    overflow: hidden;
 }
 
 nav .container-nav {
@@ -103,6 +104,41 @@ nav a.active {
 nav a:hover {
     color: white;
     transition: 400ms;
+}
+
+nav .right-nav button {
+    display: none;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: grey;
+    font-size: large;
+    transition: 400ms;
+}
+
+nav .right-nav button:hover {
+    color: white;
+    transition: 400ms;
+}
+
+nav .right-nav button:hover .lang-content {
+    display: block;
+}
+
+.lang-content {
+    display: none;
+    position: fixed;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 0px 3px black;
+    z-index: 1;
+}
+
+.lang-content a {
+    float: none;
+    color: white;
+    display: block;
+    text-align: left;
 }
 
 @media (max-width: 800px) {
